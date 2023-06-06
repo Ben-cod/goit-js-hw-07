@@ -45,8 +45,8 @@ function onClick(evt) {
   instance.show()
 
   function onEscKeyPress(evt) {
-    const ESC_KEY_CODE = 'Escape';
-    const isEscKey = evt.code === ESC_KEY_CODE;
+    const ESCAPE = 'Escape';
+    const isEscKey = evt.code === ESCAPE;
     if (!isEscKey) return;
     instance.close();
   }
